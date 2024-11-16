@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage ("checkout from GIT") {
             steps {
-                git branch: 'main', url: 'https://github.com/rahuls512/AWS-CICD-with-Jenkins-Terraform-Webhook-GroovyScripts.git'
+                git branch: 'main', url: 'https://github.com/bhaskar3410/jenkins_infra_pipeline.git/'
                
             }
         }
