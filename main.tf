@@ -1,4 +1,4 @@
-# configured aws provider and backend with proper credentials.
+# configured aws provider and backend with proper credentials
 provider "aws" {
   region = "us-west-1"
   assume_role {
